@@ -2,6 +2,10 @@
 
 InboxIQ is a machine learning-powered text classification application designed to accurately identify and filter out spam or unwanted email messages. Built with Python, scikit-learn, and Natural Language Processing (NLTK), it boasts high accuracy and precision, making it an ideal engine for a production-ready email inbox assistant.
 
+## 🚀 Live Demo
+
+[![Open InboxIQ](https://img.shields.io/badge/🎬%20Open-InboxIQ-red?style=for-the-badge)](https://inboxiq-email-sms-spam-classifier.streamlit.app/)
+
 ## 🚀 Features
 - **Exploratory Data Analysis (EDA):** Deep analysis of dataset class distributions, character lengths, word counts, and sentence counts using visualization tools like seaborn and matplotlib.
 - **Advanced Text Preprocessing:** Includes custom pipeline steps for lowercasing, word tokenization, punctuation removal, stopword removal, alphanumeric filtering, and Porter Stemming.
@@ -57,15 +61,13 @@ source inboxiq/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Run the Development Server / Notebook
-Open the file inside your preferred interactive server or trigger your operational script to view performance metrics:
-```bash
-jupyter notebook sms-spam detection.ipynb
+### 4. Run Application
+```
+streamlit run app.py
 ```
 
 ## 🧠 Technologies Used
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Scikit-Learn, NLTK, XGBoost, Matplotlib, Seaborn, WordCloud
 
----
-*Disclaimer: This is for informational and educational purposes only. AI models may occasionally produce incorrect classifications based on training distributions.*
+
